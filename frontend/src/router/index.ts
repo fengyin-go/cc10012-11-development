@@ -7,6 +7,7 @@ const Source = () => import('@/views/source/index.vue')
 const Aggregate = () => import('@/views/aggregate/index.vue')
 const Filter = () => import('@/views/filter/index.vue')
 const Reportgen = () => import('@/views/reportgen/index.vue')
+const Reportbuild = () => import('@/views/reportbuild/index.vue')
 const Anomaly = () => import('@/views/anomaly/index.vue')
 const Drill = () => import('@/views/drill/index.vue')
 const Compare = () => import('@/views/compare/index.vue')
@@ -30,6 +31,7 @@ const router = createRouter({
     { path: '/aggregate', name: 'aggregate', component: Aggregate },
     { path: '/filter', name: 'filter', component: Filter },
     { path: '/reportgen', name: 'reportgen', component: Reportgen },
+    { path: '/reportbuild', name: 'reportbuild', component: Reportbuild },
     { path: '/anomaly', name: 'anomaly', component: Anomaly },
     { path: '/drill', name: 'drill', component: Drill },
     { path: '/compare', name: 'compare', component: Compare },
